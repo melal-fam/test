@@ -1,0 +1,25 @@
+curl --location 'https://bhub.satpay.ir/service/cardToIban' \
+           --header 'Content-Type: application/json' \
+           --header 'token: {{YOUR_APPLICATION_TOKEN}}' \
+            \
+           --data '{
+    "cardNumber": ""
+}'
+
+
+
+
+---------------------------------------
+{
+    "data": {
+      "result": {
+        "ownerName": "علی حسینی",
+    "depositNumber": "6500023660001",
+    "bankName": "DEY",
+    "iban": "IR1234000065123456789123654"
+      },
+      "trackId": "UThVaGtsm", // save this track id for further purposes
+      "message": "service called successfully",
+    "isSuccess": true
+    }
+  }
