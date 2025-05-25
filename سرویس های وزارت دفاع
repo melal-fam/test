@@ -23,3 +23,34 @@ curl --location 'https://bhub.satpay.ir/service/cardToIban' \
     "isSuccess": true
     }
   }
+
+
+-----------------------------------------------
+https://bhub.satpay.ir/service/v2/cardToIban
+
+curl --location 'https://bhub.satpay.ir/service/v2/cardToIban' \
+           --header 'Content-Type: application/json' \
+           --header 'token: {{YOUR_APPLICATION_TOKEN}}' \
+            \
+           --data '{
+    "number": ""
+}'
+
+
+{
+    "data": {
+      "result": {
+        "bankName": "sample",
+    "cardType": "sample",
+    "depositNumber": "sample",
+    "iban": "sample",
+    "status": "sample",
+    "firstName": "sample",
+    "lastName": "sample"
+      },
+      "trackId": "UThVaGtsm", // save this track id for further purposes
+      "message": "service called successfully",
+    "isSuccess": true
+    }
+  }
+
