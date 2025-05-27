@@ -54,3 +54,5 @@ curl --location 'https://bhub.satpay.ir/service/v2/cardToIban' \
     }
   }
 
+
+jwt : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODMyYTQ0NmFlMTE4M2U1NTFhNDFjYjkiLCJ1dWlkIjoiMzg1MmU1YTYtZTBiZi00ODIyLTg0NzgtY2JjNGIxNTZlZjI5IiwiaWF0IjoxNzQ4MTQ5MzE4fQ.62iWY90tOiJlWxm_5Xjr4jTN7OK4Gp2_0upmu5F83EE
